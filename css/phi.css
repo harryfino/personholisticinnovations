@@ -107,6 +107,10 @@ p {
 	font-family: latobold, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.text-large {
+	font-size: 150%;
+}
+
 .page-header {
 	margin-bottom: 1.5em;
 	font-family: latobold, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -257,11 +261,4 @@ p {
 
 .collapsed .fa-minus-square-o:before {
 	content: "\f196";
-}
-
-.page-services ul > li,
-.page-about ul > li,
-.page-resources ul > li {
-	font-size: 150%;
-	font-family: latolight, "Helvetica Neue", Helvetica, Arial, sans-serif;;
 }
