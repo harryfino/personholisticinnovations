@@ -32,37 +32,27 @@
 }
 
 @media (min-width: 768px) {
-	.page-services .container,
-	.page-about .container,
-	.page-resources .container,
-	.page-daniel .container,
-	.page-adriana .container,
-	.page-payments .container,
-	.page-footer .container {
+	.container {
 		width: 680px;
+	}
+	
+	.page-home .container {
+		width: 800px;
 	}
 }
 
 @media (min-width: 992px) {
-	.page-services .container,
-	.page-about .container,
-	.page-resources .container,
-	.page-daniel .container,
-	.page-adriana .container,
-	.page-payments .container,
-	.page-footer .container {
+	.container {
 		width: 700px;
+	}
+	
+	.page-home .container {
+		width: 800px;
 	}
 }
 
 @media (min-width: 1200px) {
-	.page-services .container,
-	.page-about .container,
-	.page-resources .container,
-	.page-daniel .container,
-	.page-adriana .container,
-	.page-payments .container,
-	.page-footer .container {
+	.container {
 		width: 800px;
 	}
 }
