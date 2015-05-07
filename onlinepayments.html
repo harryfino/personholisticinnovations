@@ -120,28 +120,6 @@
 			$('.nav>li>a').on('click', function () {
 				$('.collapse.in').removeClass('in');
 			});
-			
-			$('#js-pay').on('submit', function () {
-				var amount = $('#js-amount').val();
-				var scriptTag = '<form action="https:\/\/www.personholisticinnovations.com\/cgi-bin\/sample-payment.rb" method="POST">' + 
-					'  <script ' + 
-					'    src="https://checkout.stripe.com/checkout.js" class="stripe-button"' + 
-					'    data-key="pk_test_UWauw67UzarSLeyEisI8UBrg"' + 
-					'    data-amount="' + amount * (100) + '"' + 
-					'    data-name="Person-Holistic Innovations"' + 
-					'    data-description="Service Payment ($' + amount + '.00)"' + 
-					'    data-image="..\/img\/logo.jpg"' + 
-					'    data-label="Pay Online">' +
-					'  <\/script>' + 
-					'<\/form>';
-				
-				$('#js-paymentcontainer').html('<p>Click the button below to start the payment process:<\/p>' + scriptTag);
-				$('.js-paymentrow').removeClass('hidden');
-				
-				return false;
-			});
-			
-			$('#js-amount')[0].focus();
 		});
 	</script>
 </body>
