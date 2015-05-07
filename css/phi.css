@@ -185,9 +185,6 @@ p {
 	max-width: 800px;
 	margin: auto;
 	padding: 1em 3em 2em;
-	border-radius: 10px;
-	/* background-color: rgba(0, 0, 0, .75); */
-
 }
 
 .page-home .hero > h1,
@@ -263,8 +260,9 @@ p {
 	padding-left: 20px;
 }
 
+.collapse-group .fa-minus-square-o,
 .collapse-group .fa-plus-square-o {
-	padding-right: 10px;
+	padding-right: 8px;
 }
 
 .collapsed .fa-minus-square-o:before {
